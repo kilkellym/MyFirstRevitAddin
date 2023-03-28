@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Text to UPPER</Text>
+    <Description>Some description for MyFirstRevitAddin</Description>
+    <Assembly>MyFirstRevitAddin.dll</Assembly>
+    <FullClassName>MyFirstRevitAddin.Command1</FullClassName>
+    <ClientId>f4b5648b-9bba-47ba-a3da-78de8fe36f4b</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Text to lower</Text>
+    <Description>Some description for MyFirstRevitAddin</Description>
+    <Assembly>MyFirstRevitAddin.dll</Assembly>
+    <FullClassName>MyFirstRevitAddin.Command2</FullClassName>
+    <ClientId>1f0772a6-4b61-4379-b1c5-61437b1424e1</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>MyFirstRevitAddin</Name>
+    <Assembly>MyFirstRevitAddin.dll</Assembly>
+    <FullClassName>MyFirstRevitAddin.App</FullClassName>
+    <ClientId>6c5d0ad0-1506-4ede-86e4-38dfa1c409f4</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
